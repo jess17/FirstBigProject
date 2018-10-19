@@ -1,3 +1,18 @@
+/*FONTS*/
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Libre Baskerville', serif;*/
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
 html, body{
 	height: 100%;
 	font-size: ;
@@ -16,15 +31,26 @@ html, body{
 	flex-direction: column;
 }
 
-/*HEADER*/
-.home-wrap{
-	background: pink;
-	width: 100%;
-	height: 100%;
+/*COLUMN CLASSES*/
+.col-2{
+	max-width: 620px;
+	margin: 0 10px;
 }
 
-.header-position{
-	background: orange;
+/*HEADER*/
+.home-wrap{
+	min-height: 100vh;
+	/*z-index: 2;*/
+}
+
+header {
+	background: url('../images/office-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.nav-position{
 	justify-content: space-around;
 }
 
@@ -44,7 +70,20 @@ html, body{
 
 .nav-bar a{
 	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+	color: white;
 }
+
+header span.slogan{
+	color: yellow;
+}
+
+/*HOME SECTION*/
+section.home{
+	
+}
+
 
 /*@media (max-width: 775px){
 	.header-position.flex{

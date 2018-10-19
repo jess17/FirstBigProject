@@ -1,0 +1,69 @@
+html, body{
+	height: 100%;
+	font-size: ;
+}
+
+/*FLEX CLASSES*/
+.flex{
+	display: flex;
+}
+
+.flex--row{
+	flex-direction: row;
+}
+
+.flex--column{
+	flex-direction: column;
+}
+
+/*HEADER*/
+.home-wrap{
+	background: pink;
+	width: 100%;
+	height: 100%;
+}
+
+.header-position{
+	background: orange;
+	justify-content: space-around;
+}
+
+.logo{
+	background: yellow;
+}
+
+.nav-bar ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-bar ul li {
+	list-style: none;
+	margin: 0 10px;
+}
+
+.nav-bar a{
+	text-decoration: none;
+}
+
+/*@media (max-width: 775px){
+	.header-position.flex{
+		display: flex;
+		flex-direction: column;
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
